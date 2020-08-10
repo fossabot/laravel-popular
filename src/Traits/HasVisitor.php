@@ -13,8 +13,8 @@ class HasVisitor
      * Registrates a visit into the database if it does not exist on current day
      * (Registers unique visitors)
      * @param string $ip
-     * @return \Illuminate\Database\Eloquent\Model
      * @throws \ReflectionException
+     * @return \Illuminate\Database\Eloquent\Model
      */
     public function visit($ip = '')
     {
